@@ -1,0 +1,67 @@
+# Car Damage Detection & AI Assistant - Requirements
+# Python 3.9+
+# Production-ready dependencies
+
+# ==================== CORE DEPENDENCIES ====================
+# Web framework
+streamlit
+streamlit-option-menu
+
+# Computer Vision
+opencv-python
+opencv-python-headless
+Pillow
+
+# Object Detection
+ultralytics
+torch
+torchvision
+
+# ==================== AI & LLM ====================
+# Groq API client
+groq
+
+# ==================== UTILITIES ====================
+# Environment variables
+python-dotenv
+
+# Data handling
+numpy
+pandas
+
+# ==================== DEVELOPMENT & TESTING ====================
+# Code quality
+black
+flake8
+pylint
+
+# Testing
+pytest
+pytest-cov
+
+# ==================== OPTIONAL DEPENDENCIES ====================
+# GPU support (uncomment if using CUDA)
+# torch-cuda-runtime==11.8
+# torchvision-cuda11==0.16.1
+
+# For advanced image processing
+scikit-image==0.22.0
+
+# For performance monitoring
+psutil==5.9.6
+
+# ==================== PRODUCTION DEPLOYMENT ====================
+# WSGI server (for production)
+# gunicorn==21.2.0
+# waitress==2.1.2
+
+# Database (optional)
+# sqlalchemy==2.0.23
+
+# API gateway (optional)
+# fastapi==0.104.1
+# uvicorn==0.24.0
+
+# Monitoring and logging
+# python-json-logger==2.0.7
+# sentry-sdk==1.38.0
