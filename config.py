@@ -40,7 +40,7 @@ class Config:
     # YOLO Model
     YOLO_MODEL_PATH = os.getenv(
         "YOLO_MODEL_PATH",
-        str(MODELS_DIR / "best.pt")
+        str(BASE_DIR / "best.pt")
     )
 
     # Groq Configuration
